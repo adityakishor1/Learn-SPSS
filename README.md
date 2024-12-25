@@ -72,7 +72,6 @@ Special thanks to IBM for developing SPSS and to the data science community for 
 ---
 ## Introduction to SPSS  
 [Back to Top](#table-of-contents)  
-SPSS (Statistical Package for the Social Sciences) is a powerful software tool...  
 #### Overview  
 SPSS (Statistical Package for the Social Sciences) is a powerful software tool used for statistical analysis and data management. It's widely adopted in fields such as social sciences, business, healthcare, and education for tasks like data exploration, hypothesis testing, and predictive modeling.  
 
@@ -100,9 +99,38 @@ Once installed, launch SPSS to access its user-friendly interface, which include
 - **Variable View**: Define attributes like name, type, and measurement level for each variable.  
 - **Output Viewer**: Shows results from your statistical analyses, such as tables and charts.  
 - **Syntax Editor**: Enables command-based data manipulation and analysis.*) 
- 
 
+---
+## Data Import 
+[Back to Top](#table-of-contents)
+
+#### Importing a CSV File  
+1. Open SPSS.  
+2. Click on **File** > **Open** > **Data**.  
+3. In the file browser, change the file type to "CSV (*.csv)".  
+4. Locate and select your CSV file, then click **Open**.  
+5. Follow the import wizard to specify delimiters and other settings.  
+
+#### Importing an Excel File  
+1. Go to **File** > **Open** > **Data**.  
+2. Change the file type to "Excel (*.xls, *.xlsx)".  
+3. Select your Excel file and click **Open**.  
+4. In the import dialog, choose the worksheet to import and specify if the first row contains variable names.  
+
+
+#### Importing a Text File  
+1. Click **File** > **Read Text Data**.  
+2. Choose your text file and click **Open**.  
+3. Follow the Text Import Wizard to define delimiters, variable names, and formats.  
+
+
+#### Notes for Successful Import  
+- Ensure that your dataset is clean (e.g., consistent headers, no special characters).  
+- Save the file in a supported format before importing.  
+- After importing, check the **Variable View** to confirm correct variable types and labels.  
+
+Now your dataset is ready for analysis in SPSS! 🎉
   
-
+---
 
 
