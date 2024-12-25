@@ -22,15 +22,15 @@ SPSS is a statistical software suite used for data management, statistical analy
 ## 🗂️ Repository Contents  
 
 This repository covers:  
-- **Introduction to SPSS**: Overview, installation, and interface.  
-- **Data Import**: Importing datasets (Excel, CSV, etc.).  
-- **Data Cleaning**: Handling missing values, duplicates, and outliers.  
-- **Descriptive Statistics**: Measures of central tendency and dispersion.  
-- **Inferential Statistics**: Hypothesis testing, t-tests, and chi-square tests.  
-- **Regression Analysis**: Linear, logistic, and multiple regression.  
-- **ANOVA**: One-way and two-way analysis of variance.  
-- **Visualization**: Creating histograms, bar charts, and scatter plots.  
-- **Exporting Results**: Saving outputs for reports and presentations.  
+## Table of Contents  
+1. [Introduction to SPSS](#introduction-to-spss)  
+2. [Data Import](#data-import)  
+3. [Data Cleaning](#data-cleaning)  
+4. [Descriptive Statistics](#descriptive-statistics)  
+5. [Inferential Statistics](#inferential-statistics)  
+6. [Regression Analysis](#regression-analysis)  
+7. [Visualization](#visualization)  
+8. [Exporting Results](#exporting-results) 
 
 
 ## 🖥️ Prerequisites  
@@ -70,10 +70,10 @@ Special thanks to IBM for developing SPSS and to the data science community for 
 ## 🏆 Let's Start Exploring SPSS Together!  
   
 ---
-
-### Introduction to SPSS  
-
-#### Overview  
+## Introduction to SPSS  
+[Back to Top](#table-of-contents)  
+SPSS (Statistical Package for the Social Sciences) is a powerful software tool...  
+(*#### Overview  
 SPSS (Statistical Package for the Social Sciences) is a powerful software tool used for statistical analysis and data management. It's widely adopted in fields such as social sciences, business, healthcare, and education for tasks like data exploration, hypothesis testing, and predictive modeling.  
 
 #### Key Features  
@@ -99,7 +99,10 @@ Once installed, launch SPSS to access its user-friendly interface, which include
 - **Data View**: Displays your dataset in rows (cases) and columns (variables).  
 - **Variable View**: Define attributes like name, type, and measurement level for each variable.  
 - **Output Viewer**: Shows results from your statistical analyses, such as tables and charts.  
-- **Syntax Editor**: Enables command-based data manipulation and analysis.  
+- **Syntax Editor**: Enables command-based data manipulation and analysis.*) 
+ 
+
+  
 
 
 
