@@ -58,7 +58,7 @@ Contributions are welcome! If you have additional SPSS resources, tips, or examp
 
 For any questions or suggestions, reach out to me:  
 - **Email**: adikishor67@gmail.com 
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/aditya-kishor-sharma/)  
+- **LinkedIn**: [Check my LinkedIn](https://www.linkedin.com/in/aditya-kishor-sharma/)  
 
 
 ## 🌟 Acknowledgements  
