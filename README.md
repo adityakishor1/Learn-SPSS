@@ -134,3 +134,87 @@ Now your dataset is ready for analysis in SPSS! 🎉
 ---
 
 
+## Data Cleaning
+[Back to Top](#table-of-contents)
+
+# Data Cleaning: Handling Missing Values, Duplicates, and Outliers  
+
+Data cleaning is a crucial step in preparing your dataset for accurate analysis. Below are the essential techniques for handling missing values, duplicates, and outliers in SPSS. Click on each section to expand and learn more!  
+
+
+<details>
+<summary>1. Handling Missing Values</summary>  
+
+**Steps to Identify Missing Values:**  
+- Go to **Analyze** > **Descriptive Statistics** > **Frequencies**.  
+- Select the variables to analyze and display missing values in the output.  
+
+**Options for Handling Missing Values:**  
+1. **Exclude Cases:**  
+   - Use listwise or pairwise deletion during analysis under **Analyze** > **Options**.  
+
+2. **Replace Missing Values:**  
+   - Go to **Transform** > **Replace Missing Values**.  
+   - Replace with the mean, median, mode, or custom values.  
+
+3. **Multiple Imputation:**  
+   - Use **Analyze** > **Multiple Imputation** > **Impute Missing Data Values**.  
+   - SPSS creates multiple datasets with imputed values for robust analysis.  
+
+</details>  
+
+
+<details>
+<summary>2. Removing Duplicate Records</summary>  
+
+**Steps to Identify Duplicates:**  
+1. Go to **Data** > **Identify Duplicate Cases**.  
+2. Select variables that uniquely identify each case.  
+3. SPSS flags duplicates in a new column.  
+
+**Steps to Remove Duplicates:**  
+- Sort the dataset by the duplicate flag and delete marked rows.  
+- Keep the latest record if timestamps are available.  
+
+</details>  
+
+
+<details>
+<summary>3. Detecting and Handling Outliers</summary>  
+
+**Steps to Detect Outliers:**  
+1. **Boxplot Visualization:**  
+   - Go to **Graphs** > **Chart Builder**.  
+   - Select **Boxplot** and assign your variable.  
+
+2. **Z-Score Method:**  
+   - Compute Z-scores under **Transform** > **Compute Variable** using:  
+     `(Variable - Mean) / Standard Deviation`.  
+   - Values beyond ±3 are considered outliers.  
+
+**Options for Handling Outliers:**  
+1. Remove extreme values if they are errors.  
+2. Transform data using log or square root to normalize distributions.  
+3. Winsorize extreme values to the nearest valid range.  
+
+</details>  
+
+
+<details>
+<summary>4. Additional Cleaning Steps</summary>  
+
+1. **Checking Variable Types:**  
+   - Verify variable types (numeric, string) and measurement levels under **Variable View**.  
+
+2. **Removing Inconsistent Data:**  
+   - Use **Data** > **Select Cases** to filter out invalid entries.  
+
+3. **Eliminating Redundant Variables:**  
+   - Drop unnecessary variables to simplify your dataset.  
+
+</details>  
+
+---
+
+
+
