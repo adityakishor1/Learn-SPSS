@@ -222,8 +222,6 @@ Data cleaning is a crucial step in preparing your dataset for accurate analysis.
 
 Descriptive statistics summarize and describe the main features of a dataset, offering insights into the data's central tendency, dispersion, and shape. Explore the detailed guides below:  
 
----
-
 <details>
 <summary>1. Measures of Central Tendency</summary>  
 
@@ -241,8 +239,6 @@ Descriptive statistics summarize and describe the main features of a dataset, of
   - Also available under **Frequencies**.  
 
 </details>  
-
----
 
 <details>
 <summary>2. Measures of Dispersion</summary>  
