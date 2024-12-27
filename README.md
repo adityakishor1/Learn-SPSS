@@ -212,9 +212,107 @@ Data cleaning is a crucial step in preparing your dataset for accurate analysis.
 3. **Eliminating Redundant Variables:**  
    - Drop unnecessary variables to simplify your dataset.  
 
+
 </details>  
 
 ---
+
+## Descriptive Statistics 
+[Back to Top](#table-of-contents)
+
+Descriptive statistics summarize and describe the main features of a dataset, offering insights into the data's central tendency, dispersion, and shape. Explore the detailed guides below:  
+
+---
+
+<details>
+<summary>1. Measures of Central Tendency</summary>  
+
+**Central Tendency** refers to the middle or typical value in a dataset.  
+
+- **Mean:** The average value of a dataset.  
+  - Go to **Analyze** > **Descriptive Statistics** > **Descriptives**.  
+  - Select your variable(s) and click **OK** to compute the mean.  
+
+- **Median:** The middle value when data is sorted.  
+  - Go to **Analyze** > **Descriptive Statistics** > **Frequencies**.  
+  - Enable the median option in the Statistics tab.  
+
+- **Mode:** The most frequently occurring value.  
+  - Also available under **Frequencies**.  
+
+</details>  
+
+---
+
+<details>
+<summary>2. Measures of Dispersion</summary>  
+
+**Dispersion** describes the spread or variability in a dataset.  
+
+- **Range:**  
+  - Compute the range by finding the difference between the maximum and minimum values.  
+  - Use **Analyze** > **Descriptive Statistics** > **Descriptives** and enable the range option.  
+
+- **Standard Deviation (SD):**  
+  - Indicates the average distance of data points from the mean.  
+  - Available under **Descriptives** or **Frequencies**.  
+
+- **Variance:**  
+  - The square of the standard deviation, showing variability in squared units.  
+  - Calculated similarly to SD in SPSS.  
+
+</details>  
+
+
+<details>
+<summary>3. Frequency Distribution</summary>  
+
+**Frequency distribution** shows how often each value occurs in the dataset.  
+
+- **Steps to Generate:**  
+  1. Go to **Analyze** > **Descriptive Statistics** > **Frequencies**.  
+  2. Select the variable(s) and click **OK**.  
+  3. View the frequency table and histogram in the output.  
+
+**Useful for:**  
+- Understanding data distribution.  
+- Spotting unusual patterns or outliers.  
+
+</details>  
+
+<details>
+<summary>4. Data Visualization for Descriptive Statistics</summary>  
+
+SPSS offers tools to visualize descriptive statistics for better insights.  
+
+- **Histograms:**  
+  - Go to **Graphs** > **Chart Builder** > Select **Histogram**.  
+
+- **Boxplots:**  
+  - Useful for identifying outliers and spread.  
+  - Found under **Graphs** > **Chart Builder** > **Boxplot**.  
+
+- **Pie Charts and Bar Charts:**  
+  - Visualize categorical data distributions.  
+  - Available under **Chart Builder**.  
+
+</details>  
+
+
+<details>
+<summary>5. Summarizing Data</summary>  
+
+**Steps to Summarize:**  
+1. Go to **Analyze** > **Descriptive Statistics** > **Explore**.  
+2. Select the variable(s) to analyze.  
+3. SPSS generates:  
+   - Summary statistics (mean, median, SD, etc.).  
+   - Visualizations like boxplots and stem-and-leaf plots.  
+
+</details>  
+
+---
+
 
 
 
