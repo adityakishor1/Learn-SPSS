@@ -307,8 +307,125 @@ SPSS offers tools to visualize descriptive statistics for better insights.
 
 </details>  
 
+--- 
+## Inferential Statistics 
+[Back to Top](#table-of-contents)
+
+Inferential statistics allow us to draw conclusions about a population based on sample data. This includes hypothesis testing, confidence intervals, and regression analysis. Explore the detailed guides below:  
+
+
+
+<details>
+<summary>1. Hypothesis Testing</summary>  
+
+**Hypothesis testing** helps assess whether a claim about a population parameter is supported by sample data.  
+
+**Steps to Perform Hypothesis Testing in SPSS:**  
+1. Go to **Analyze** > **Compare Means**.  
+2. Choose the appropriate test based on your data:  
+   - **One-Sample T-Test:** Compare a sample mean to a known value.  
+   - **Independent Samples T-Test:** Compare means of two independent groups.  
+   - **Paired Samples T-Test:** Compare means of two related groups.  
+
+**Interpreting Results:**  
+- Check the **p-value** in the output.  
+  - If **p < 0.05**, reject the null hypothesis.  
+  - If **p ≥ 0.05**, fail to reject the null hypothesis.  
+
+</details>  
+
+<details>
+<summary>2. Confidence Intervals</summary>  
+
+Confidence intervals provide a range of values likely to contain the population parameter.  
+
+**Steps to Compute Confidence Intervals in SPSS:**  
+1. Go to **Analyze** > **Descriptive Statistics** > **Explore**.  
+2. Select the variable(s) and enable confidence intervals in the output settings.  
+3. SPSS generates a 95% confidence interval by default.  
+
+**How to Interpret:**  
+- If the interval does not include the null hypothesis value, the result is statistically significant.  
+
+</details>  
+
+
+<details>
+<summary>3. ANOVA (Analysis of Variance)</summary>  
+
+**ANOVA** tests whether there are significant differences between the means of three or more groups.  
+
+**Steps to Perform ANOVA in SPSS:**  
+1. Go to **Analyze** > **Compare Means** > **One-Way ANOVA**.  
+2. Select the dependent variable and the factor (grouping) variable.  
+3. Click **Options** to include descriptive statistics and post-hoc tests.  
+
+**Interpreting Results:**  
+- Check the **F-statistic** and **p-value** in the output.  
+  - If **p < 0.05**, at least one group mean is significantly different.  
+- Use post-hoc tests (e.g., Tukey) to identify specific group differences.  
+
+</details>  
+
+
+<details>
+<summary>4. Correlation Analysis</summary>  
+
+**Correlation** measures the strength and direction of the relationship between two variables.  
+
+**Steps to Perform Correlation in SPSS:**  
+1. Go to **Analyze** > **Correlate** > **Bivariate**.  
+2. Select the variables to analyze.  
+3. Choose the correlation coefficient:  
+   - **Pearson:** For continuous variables.  
+   - **Spearman:** For ordinal or non-linear relationships.  
+
+**Interpreting Results:**  
+- Correlation values range from -1 to +1:  
+  - **+1:** Perfect positive correlation.  
+  - **0:** No correlation.  
+  - **-1:** Perfect negative correlation.  
+
+</details>  
+
+
+<details>
+<summary>5. Regression Analysis</summary>  
+
+**Regression** predicts the value of a dependent variable based on one or more independent variables.  
+
+**Steps to Perform Regression in SPSS:**  
+1. Go to **Analyze** > **Regression** > **Linear**.  
+2. Select the dependent variable and independent variable(s).  
+3. SPSS generates regression coefficients, R², and p-values.  
+
+**Types of Regression:**  
+- **Simple Linear Regression:** One independent variable.  
+- **Multiple Regression:** Two or more independent variables.  
+
+**Interpreting Results:**  
+- **R²:** Explains the variance in the dependent variable.  
+- **p-value:** Indicates whether the predictors significantly influence the outcome.  
+
+</details>  
+
+
+<details>
+<summary>6. Chi-Square Test</summary>  
+
+**Chi-Square Test** examines the association between categorical variables.  
+
+**Steps to Perform Chi-Square Test in SPSS:**  
+1. Go to **Analyze** > **Descriptive Statistics** > **Crosstabs**.  
+2. Select the row and column variables.  
+3. Click **Statistics** and enable the Chi-Square test option.  
+
+**Interpreting Results:**  
+- Check the Chi-Square statistic and **p-value** in the output.  
+  - If **p < 0.05**, there is a significant association between variables.  
+
+</details>  
+
 ---
-
-
 
 
