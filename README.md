@@ -428,4 +428,99 @@ Confidence intervals provide a range of values likely to contain the population 
 
 ---
 
+## Regression Analysis
+[Back to Top](#table-of-contents)
+
+Regression analysis is a powerful statistical method to model the relationship between a dependent variable and one or more independent variables. Below are the detailed guides for performing regression analysis in SPSS.  
+
+<details>
+<summary>1. Simple Linear Regression</summary>  
+
+**Purpose:**  
+Predict the value of a dependent variable (Y) based on one independent variable (X).  
+
+**Steps in SPSS:**  
+1. Go to **Analyze** > **Regression** > **Linear**.  
+2. Assign your dependent variable to the **Dependent** box.  
+3. Assign your independent variable to the **Independent(s)** box.  
+4. Click **OK** to view results.  
+
+**Key Outputs:**  
+- **Regression Equation:** \( Y = b_0 + b_1X \), where \( b_0 \) is the intercept and \( b_1 \) is the slope.  
+- **R² Value:** Measures how well the model explains the variance in the dependent variable.  
+- **P-Value:** Indicates the significance of the independent variable.  
+
+**Example Use Case:**  
+Predict sales revenue (Y) based on advertising spend (X).  
+
+</details>  
+
+<details>
+<summary>2. Multiple Linear Regression</summary>  
+
+**Purpose:**  
+Predict the value of a dependent variable (Y) based on two or more independent variables (X₁, X₂, ...).  
+
+**Steps in SPSS:**  
+1. Go to **Analyze** > **Regression** > **Linear**.  
+2. Assign your dependent variable to the **Dependent** box.  
+3. Assign multiple independent variables to the **Independent(s)** box.  
+4. Click **Statistics** to include options like estimates, R², and collinearity diagnostics.  
+5. Click **OK** to view results.  
+
+**Key Outputs:**  
+- **Regression Equation:** \( Y = b_0 + b_1X_1 + b_2X_2 + ... + b_nX_n \).  
+- **Adjusted R²:** Adjusted for the number of predictors, providing a more accurate measure for multiple variables.  
+- **Significance of Predictors:** Look for independent variables with \( p < 0.05 \).  
+
+**Example Use Case:**  
+Predict house prices based on square footage, number of bedrooms, and location.  
+
+</details>  
+
+<details>
+<summary>3. Logistic Regression</summary>  
+
+**Purpose:**  
+Model the probability of a binary outcome (e.g., yes/no, success/failure).  
+
+**Steps in SPSS:**  
+1. Go to **Analyze** > **Regression** > **Binary Logistic**.  
+2. Assign the binary dependent variable to the **Dependent** box.  
+3. Assign independent variables to the **Covariates** box.  
+4. Click **OK** to generate results.  
+
+**Key Outputs:**  
+- **Odds Ratio:** Indicates the likelihood of the dependent variable occurring for a unit increase in the predictor.  
+- **Model Fit Statistics:** Includes the -2 log-likelihood and Hosmer-Lemeshow test.  
+
+**Example Use Case:**  
+Predict whether a customer will purchase a product (yes/no) based on their demographics and browsing behavior.  
+
+</details>  
+
+<details>
+<summary>4. Interpreting Regression Results</summary>  
+
+**Key Metrics to Interpret:**  
+- **Coefficients (b₀, b₁, etc.):** Explain the change in the dependent variable for a one-unit change in the predictor.  
+- **P-Values:** Assess the significance of predictors (\( p < 0.05 \) indicates significance).  
+- **R² and Adjusted R²:** Measure the proportion of variance explained by the model.  
+- **Residual Plots:** Evaluate the assumption of linearity and homoscedasticity.  
+
+</details>  
+
+
+<details>
+<summary>5. Tips for Using Regression in SPSS</summary>  
+
+- Check for **Multicollinearity** among predictors using the **Collinearity Diagnostics** option in SPSS.  
+- Use **Standardized Coefficients** to compare the relative importance of predictors.  
+- Perform **Residual Analysis** to verify model assumptions.  
+- Visualize regression results with scatterplots and trendlines for better interpretation.  
+
+</details>  
+
+---
+  
 
