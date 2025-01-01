@@ -522,5 +522,146 @@ Predict whether a customer will purchase a product (yes/no) based on their demog
 </details>  
 
 ---
+
+## Visualization
+[Back to Top](#table-of-contents)
+
+Visualizations help in understanding patterns, trends, and distributions in your data. SPSS provides multiple options to create effective visual representations. Explore the detailed guides below:
+
+
+<details>
+<summary>1. Histograms</summary>  
+
+**Purpose:**  
+Show the distribution of a continuous variable.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Histogram** chart type to the preview window.  
+3. Assign your variable to the **X-Axis**.  
+4. Click **OK** to generate the histogram.  
+
+**Use Case:**  
+Analyze the distribution of exam scores for a group of students.  
+
+**Pro Tip:**  
+Enable normal distribution overlay to check if the data is normally distributed.  
+
+</details>  
+
+<details>
+<summary>2. Bar Charts</summary>  
+
+**Purpose:**  
+Compare categories of data using rectangular bars.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Bar Chart** to the preview window.  
+3. Assign the categorical variable to the **X-Axis** and the numeric variable to **Y-Axis**.  
+4. Click **OK** to generate the bar chart.  
+
+**Use Case:**  
+Visualize sales revenue by region.  
+
+**Pro Tip:**  
+Use clustered or stacked bar charts for comparisons across multiple categories.  
+
+</details>  
+
+
+<details>
+<summary>3. Scatterplots</summary>  
+
+**Purpose:**  
+Show relationships between two continuous variables.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Scatterplot** to the preview window.  
+3. Assign one variable to the **X-Axis** and another to the **Y-Axis**.  
+4. Click **OK** to generate the scatterplot.  
+
+**Use Case:**  
+Assess the relationship between advertising spend and sales revenue.  
+
+**Pro Tip:**  
+Add a trendline to visualize the strength and direction of the relationship.  
+
+</details>  
+
+
+<details>
+<summary>4. Boxplots</summary>  
+
+**Purpose:**  
+Visualize the spread, median, and potential outliers of a dataset.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Boxplot** chart to the preview window.  
+3. Assign the variable(s) to the axes.  
+4. Click **OK** to generate the boxplot.  
+
+**Use Case:**  
+Compare the test scores of students across different classrooms.  
+
+**Pro Tip:**  
+Use grouped boxplots to compare distributions across multiple categories.  
+
+</details>  
+
+<details>
+<summary>5. Pie Charts</summary>  
+
+**Purpose:**  
+Show proportions of categories in a dataset.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Pie Chart** to the preview window.  
+3. Assign the categorical variable to the **Slices** area.  
+4. Click **OK** to generate the pie chart.  
+
+**Use Case:**  
+Visualize market share percentages of different companies.  
+
+**Pro Tip:**  
+Avoid using too many categories; limit to 5-6 slices for better clarity.  
+
+</details>  
+
+
+<details>
+<summary>6. Line Charts</summary>  
+
+**Purpose:**  
+Show trends over time or other continuous variables.  
+
+**Steps in SPSS:**  
+1. Go to **Graphs** > **Chart Builder**.  
+2. Drag the **Line Chart** to the preview window.  
+3. Assign the time variable to the **X-Axis** and the numeric variable to the **Y-Axis**.  
+4. Click **OK** to generate the line chart.  
+
+**Use Case:**  
+Analyze sales trends over months.  
+
+**Pro Tip:**  
+Use multiple lines to compare trends across different groups.  
+
+</details>  
+
+
+### Tips for Effective Visualizations:  
+- Use appropriate chart types based on your data.  
+- Avoid overcrowding charts with too many variables.  
+- Add labels and legends for clarity.  
+- Stick to simple and clean color schemes.  
+
+---
+
+
+
   
 
