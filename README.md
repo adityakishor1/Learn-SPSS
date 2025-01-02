@@ -662,6 +662,108 @@ Use multiple lines to compare trends across different groups.
 ---
 
 
+## Exporting Results
+[Back to Top](#table-of-contents)
 
+
+Exporting results in SPSS is essential for sharing insights and further analysis in other tools. SPSS provides various options to save or export outputs, tables, and graphs. Follow the detailed guides below:
+
+<details>
+<summary>1. Exporting Output to a File</summary>  
+
+**Purpose:**  
+Save your SPSS output to a file for future reference or sharing.  
+
+**Steps:**  
+1. Go to **File** > **Export** in the output viewer.  
+2. Choose the format:  
+   - **SPV File:** For SPSS output viewer (default).  
+   - **PDF:** For sharing as a read-only document.  
+   - **Word/RTF:** For editable reports.  
+   - **HTML:** For web-based sharing.  
+3. Specify the destination folder and file name.  
+4. Click **OK** to export.  
+
+**Pro Tip:**  
+Use the **PDF format** for professional presentations and the **Word format** for editable reports.  
+
+</details>  
+
+
+<details>
+<summary>2. Exporting Tables</summary>  
+
+**Purpose:**  
+Export individual tables from the output for use in presentations or reports.  
+
+**Steps:**  
+1. Right-click on the desired table in the output viewer.  
+2. Select **Export** or **Copy Object**.  
+3. Choose the format:  
+   - **Excel:** For numerical analysis.  
+   - **Image (JPEG/PNG):** For visual embedding in presentations.  
+4. Click **OK** to save the table.  
+
+**Pro Tip:**  
+Use **Excel** for detailed data sharing and image formats for slides or web use.  
+
+</details>  
+
+<details>
+<summary>3. Exporting Graphs</summary>  
+
+**Purpose:**  
+Save SPSS visualizations for embedding in reports or presentations.  
+
+**Steps:**  
+1. Right-click on the graph in the output viewer.  
+2. Select **Export** or **Copy Object**.  
+3. Choose the format:  
+   - **JPEG/PNG:** For presentations.  
+   - **TIFF/EPS:** For high-quality publications.  
+4. Specify the file name and location.  
+5. Click **OK** to export.  
+
+**Pro Tip:**  
+For publication-quality images, use **EPS** or **TIFF** formats.  
+
+</details>  
+
+<details>
+<summary>4. Exporting Data</summary>  
+
+**Purpose:**  
+Export the dataset for use in other software like Excel, R, or Python.  
+
+**Steps:**  
+1. Go to **File** > **Save As** in the data editor.  
+2. Choose the format:  
+   - **CSV:** For analysis in Python or R.  
+   - **Excel:** For sharing and reporting.  
+   - **SAS/STATA:** For use in other statistical tools.  
+3. Specify the file name and location.  
+4. Click **Save** to export.  
+
+**Pro Tip:**  
+Ensure proper variable naming conventions before exporting to avoid errors in other tools.  
+
+</details>  
+
+
+<details>
+<summary>5. Automating Exports</summary>  
+
+**Purpose:**  
+Export multiple results at once using syntax for efficiency.  
+
+**Steps:**  
+1. Open the SPSS syntax editor.  
+2. Use the **OUTPUT EXPORT** command to specify the format and destination.  
+   ```spss
+   OUTPUT EXPORT
+   /CONTENTS EXPORT=VISIBLE
+   /SAVE="C:\path\to\file.pdf"
+   /TYPE=PDF.
+---
   
 
